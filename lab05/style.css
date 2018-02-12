@@ -1,0 +1,33 @@
+h1 {
+    background-color: rgb(130, 183, 208);
+}
+
+h2 {
+    background-color: rgb(155, 201, 223);
+}
+
+h3 {
+    background-color: rgb(204, 231, 244);
+}
+
+p {
+    background-color: rgb(227, 243, 251);
+}
+
+figcaption {
+    color: rgb(193, 193, 193);
+    font-style: italic;
+}
+
+body {
+    width: 800px;
+}
+
+figure {
+    width: 600px;
+    margin: auto;
+}
+
+img {
+    width: 600px;
+}
