@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(248, 225, 238);
+}
+
+h3 {
+    font-size: 24pt;
+    color: rgb(66, 47, 57);
+    font-family: 'Anton', sans-serif;
+    text-shadow: 1px 1px 1px #c5b8cf;
+}
+
+.answer {
+    font-family: 'Arvo', serif;
+}

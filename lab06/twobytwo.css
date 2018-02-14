@@ -1,0 +1,12 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: maroon;
+    display: inline-block; 
+    }
+
+#highlighted {
+    border-width: 10px;
+    border-style: outset;
+    border-color: black;
+}
