@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: lightgray;
+  }
+
+  .stamp {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: forestgreen;
+  }
+
+  #uruguay {
+    background-image: url("Uruguayflag.png"), url("Uruguay.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 75px, auto 300px;
+    background-position-x: right, center;
+    background-position-y: top, center;
+    box-shadow: 5px 10px 8px #888888;
+  }
+
+  #poland {
+    background-image: url("Polandflag.png"), url("Poland.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 75px, auto 300px;
+    background-position-x: right, center;
+    background-position-y: top, center;
+    box-shadow: 5px 10px 8px #888888;
+  }
+
+  #afghanistan {
+    background-image: url("Afghanistanflag.png"), url("Afghanistan.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 75px, auto 300px;
+    background-position-x: right, center;
+    background-position-y: top, center;
+    box-shadow: 5px 10px 8px #888888;
+  }
+
+  #tanzania {
+    background-image: url("Tanzaniaflag.png"), url("Tanzania.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 75px, auto 300px;
+    background-position-x: right, center;
+    background-position-y: top, center;
+    box-shadow: 5px 10px 8px #888888;
+  }
