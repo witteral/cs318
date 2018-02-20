@@ -20,8 +20,7 @@ body {
     background-image: url("Uruguayflag.png"), url("Uruguay.jpg");
     background-repeat: no-repeat;
     background-size: auto 75px, auto 300px;
-    background-position-x: right, center;
-    background-position-y: top, center;
+    background-position: top right, center;
     box-shadow: 5px 10px 8px #888888;
   }
 
@@ -29,8 +28,7 @@ body {
     background-image: url("Polandflag.png"), url("Poland.jpg");
     background-repeat: no-repeat;
     background-size: auto 75px, auto 300px;
-    background-position-x: right, center;
-    background-position-y: top, center;
+    background-position: top right, center;
     box-shadow: 5px 10px 8px #888888;
   }
 
@@ -38,8 +36,7 @@ body {
     background-image: url("Afghanistanflag.png"), url("Afghanistan.jpg");
     background-repeat: no-repeat;
     background-size: auto 75px, auto 300px;
-    background-position-x: right, center;
-    background-position-y: top, center;
+    background-position: top right, center;
     box-shadow: 5px 10px 8px #888888;
   }
 
@@ -47,7 +44,6 @@ body {
     background-image: url("Tanzaniaflag.png"), url("Tanzania.jpg");
     background-repeat: no-repeat;
     background-size: auto 75px, auto 300px;
-    background-position-x: right, center;
-    background-position-y: top, center;
+    background-position: top right, center;
     box-shadow: 5px 10px 8px #888888;
   }
