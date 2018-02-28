@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(219, 226, 235), rgb(131, 144, 161)) ;
+}
+
+div {
+    width: 1000px;
+    background-color: rgb(230, 239, 240);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background-color: rgb(164, 120, 175);
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-style: bold;
+}
+
+nav {
+     text-align: center;
+}
+
+nav div{   
+    display: inline-block;
+    width: 60px;
+}
+
+#contact { 
+    color: blue;
+    text-decoration: underline;
+}
+
+#tour { 
+    color: blue;
+    text-decoration: underline;
+}
+
+#gallery { 
+    color: blue;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    text-align: right;
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+.sanfran {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px 8px #888888;
+    }
+
+.text {
+    padding: 20px;
+}
+
+#image {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: right;
+    padding: 20px;
+    font-style: italic;
+}
