@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url(cork.jpg)
+}  
+
+.photo{
+width: 300px;
+height: 350px;
+background-color: white;
+margin: 20px;
+display:inline-block;
+position:relative;
+box-shadow: 0 0 20px #000;
+}
+
+@font-face {
+    font-family: Marker;
+    src: url(PermanentMarker.ttf);
+  }
+
+.label{
+    font-family: Marker;
+    position:absolute;
+    left:0;
+    bottom:20px;
+    right:0;
+    font-size: 45px;
+    text-align: center;
+}
+
+.animal{
+    width:250px;
+    height:250px;
+    margin: 10px 10px 20px 25px;
+    position: relative;
+}
+
+#cow{  
+    transform: rotate(5deg);
+}
+
+#dog{   
+    transform: rotate(-5deg);
+}
+
+#panda{
+    transform: rotate(-5deg);
+}
+
+.pin{
+    width: 50px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
