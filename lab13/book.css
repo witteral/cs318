@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+
+  ul{
+list-style: none;
+display:inline-block;
+  }
+
+  main{
+    background-color: rgb(218, 207, 232);
+    margin:0;
+    padding:10px;
+    display:inline-block;
+}
+
+li{
+    display:inline;
+}
+
+  header{
+      background-color: rgb(105, 73, 145);
+      margin:0;
+      padding:10px;
+  }
+
+  nav{
+      background-color: rgb(179, 159, 204);
+      margin:0;
+      padding:10px;
+      float:left;
+      width:100%;
+ }
+
+ body{
+     background-color: rgb(179, 159, 204);
+ }
+
+ aside{
+    background-color: rgb(185, 161, 216);
+    padding:20px;
+    font-size: 15pt;
+    width:100%;
+}
+
+ .chapter{
+     display:none;
+ }
+  @media (min-width: 600px) {
+      #size {
+          width:300px;
+      }
+      main{
+        width: calc(100% - 300px);
+      }
+      .chapter{
+          display:inline;
+      }
+      li{
+          display:block;
+      }
+      ul{
+          display:block;
+      }
+      aside{
+          width:300px;
+          float:right;
+      }
+}
+
+  .poem{
+white-space: pre-wrap;
+  }
+
+
+
