@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+
+div img {
+    width: 100%;
+    height: auto;
+}
+
+.image {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    width: 85px;
+    background-color: rgba(87, 63, 32, 0.699);
+    color: rgba(243, 205, 122, 0.87);
+    border-radius: 7%;
+    top:-15px;
+    right:20px;
+    padding: 2px;
+    font-size: 9pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+@media (min-width: 600px) {
+    div img {
+        width: 350px;
+        height: auto;
+        float: right;
+        margin-right: 10px;
+    }
+
+    #first {
+        float: left;
+    }
+
+    #third {
+        float: left;
+    }
+    
+}
+
+h2 {
+    font-size: 13pt;
+}
+
