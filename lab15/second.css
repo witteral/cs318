@@ -2,6 +2,9 @@
     box-sizing: border-box;
   }
 
+ul {
+    display: inline-block;
+}
 
  body {
     background-image: url(http://www.dundjinni.com/forums/uploads/Ravenbow/49E_BrickRound70_CG_bg-a.png);
