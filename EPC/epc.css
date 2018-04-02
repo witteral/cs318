@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+  }
+
+  #top {
+    
+    Position: fixed;
+}
+
+#logo {
+    width: 100px;
+    height: 70px;
+    Float: left;
+    position: fixed;
+    top:5px;
+    left: 50px;
+}
+
+nav div {
+    display: inline-block;
+    padding: 40px;
+    padding-top: 38px;
+}
+
+a {
+    color: black;
+    font-size: 18pt;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+#navigation{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-left: 100px;
+}
+
+header{
+    font-size: 100pt;
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+.banner{
+      width:100vw;
+      MIN-height:800px;
+      background-size:cover;
+      background-position:center;
+      background-attachment:fixed;
+      position: relative;
+  }
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+}
+
+#AJ{
+    background-image: url("aj.jpg");
+    background-repeat: no-repeat;
+}
+#tyler {
+    background-image: url("tyler.jpg");
+    position: absolute;
+    right: 0;
+    background-repeat: no-repeat;
+}
+
+#jake {
+    background-image: url("jakes.jpg");
+    background-repeat: no-repeat;
+}
+
+#ryan {
+    background-image: url("ryan.jpg");
+    position: absolute;
+    right: 0;
+    background-repeat: no-repeat;
+}
+
+.photo{
+    display:inline-block;
+    width:200px;
+    height:130px;
+    background-size: 100%;
+    box-shadow: 0 0 30px rgb(109, 104, 104);
+    position: relative;
+    background-position: center;
+    margin:30px;
+  }
+
+  #staff {
+      width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+.name{
+    font-size:15px;
+    font-family: sans-serif;
+    color: rgb(77, 75, 75);
+    text-shadow: 10px black;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:-30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.position {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+#exc{
+    background-image: url("http://ak4.picdn.net/shutterstock/videos/4826774/thumb/1.jpg");
+}
+
+#aud {
+    background-image: url("https://cdn.allwallpaper.in/wallpapers/2400x1350/8754/music-concert-2400x1350-wallpaper.jpg")
+}
+
+#cont{
+    background-image: url("https://ak9.picdn.net/shutterstock/videos/17430769/thumb/11.jpg")
+}
+
+#light{
+    background-image: url("https://ak7.picdn.net/shutterstock/videos/12845807/thumb/1.jpg?i10c=img.resize(height:160)")
+}
+
+#vid{
+    background-image: url("https://ak2.picdn.net/shutterstock/videos/11883602/thumb/3.jpg")
+}

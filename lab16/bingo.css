@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+td {
+    border: 1px solid black;
+    width: 5em;
+    height: 5em;
+    text-align: center;
+  }
+
+  #free {
+      background-color: burlywood;
+  }
+
+  table {
+      border-spacing: 0;
+      border-collapse: collapse;
+  }
+
+  th {
+      font-size: 20pt;
+  }
+
+  td:hover {
+    background-color: bisque;
+  }
