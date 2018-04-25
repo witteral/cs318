@@ -7,29 +7,76 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: white;
+}
+
+h1{
+    background-color: black;
+    color:white;
+}
+
+h2{
+    text-align: center;
 }
 
 header{
-    background-color: aquamarine;
+    background-color: black; 
 }
 
 #middle{
     background-color: blue;
     flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+    background-color: white;
 }
 
 footer{
-    background-color: bisque;
+    
+    align-self: center;
 }
 
 img{
-    width:90px
+    width:90px;
+}
+
+#left img{
+    width:300px;
 }
 
 #left{
-    background-color: blueviolet;
+    background-color: white;
+    flex:0;
+    align-self: center;
+    margin:20px;
 }
 
 #right{
-    background-color: burlywood;
+    background-color: lightslategray;
+    flex:0;
+    align-self: flex-start;
+    border: 2px solid black;
+    min-width:200px;
+    margin:20px;
+
+}
+
+main{
+    flex: 1;
+}
+
+@media (max-width: 800px) {
+    #middle{
+        flex-direction:column;
+    }
+
+    #left{
+        justify-content: center;
+        text-align: center;
+    }
+
+    #right{
+       align-self: center;
+    }
+
 }
