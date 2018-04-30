@@ -177,23 +177,23 @@ div .homepagepic:nth-child(even) {
 }
 
 #exc{
-    background-image: url("http://ak4.picdn.net/shutterstock/videos/4826774/thumb/1.jpg");
+    background-image: url("images/bon-iver1.jpg");
 }
 
 #aud {
-    background-image: url("https://cdn.allwallpaper.in/wallpapers/2400x1350/8754/music-concert-2400x1350-wallpaper.jpg")
+    background-image: url("images/show-light.jpg")
 }
 
 #cont{
-    background-image: url("https://theplantnewspaper.com/wp-content/uploads/2016/02/WINTER-16-021416-concerts.jpg")
+    background-image: url("images/gatsby2.jpg")
 }
 
 #light{
-    background-image: url("https://ak7.picdn.net/shutterstock/videos/12845807/thumb/1.jpg?i10c=img.resize(height:160)")
+    background-image: url("images/gatsby-lighting.jpg")
 }
 
 #vid{
-    background-image: url("https://static.wixstatic.com/media/dc9a70_8991e383223b407ba8dc95bbf3934a01~mv2_d_2000_1333_s_2.jpg")
+    background-image: url("images/fireball.jpg")
 }
 
 
