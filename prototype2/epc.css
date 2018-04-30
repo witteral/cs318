@@ -109,11 +109,17 @@ h1:not(:first-child){
     width:200px;
     height:130px;
     box-shadow: 0 0 30px rgb(109, 104, 104);
-    margin:60px;
+    margin:70px;
     
   }
 
+footer {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15pt;
+    padding: 20px;
+    text-align: right;
 
+}
 .staffpic{
     width:200px;
     height:130px;
@@ -123,7 +129,7 @@ h1:not(:first-child){
     display: flex;
     width: 60%;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
@@ -162,7 +168,7 @@ div p:last-child {
 div .homepagepic:nth-child(odd) {
     width: 450px;
     height: auto;
-    margin: 40px;
+    margin: 0 40px 40px 40px;
     float: left;
     box-shadow: 0 0 10px rgb(109, 104, 104);
 }
@@ -172,7 +178,7 @@ div .homepagepic:nth-child(even) {
     float: right;
     width: 500px;
     height: auto;
-    margin: 40px;
+    margin: 0 40px 40px 100px;
     box-shadow: 0 0 10px rgb(109, 104, 104);
 }
 
@@ -273,6 +279,7 @@ div .homepagepic:nth-child(even) {
     z-index: -1;
     padding-bottom: 150px;
     justify-self: center;
+    min-height: 1000px;
 }
 
 .training-panel img{
@@ -294,11 +301,11 @@ div .homepagepic:nth-child(even) {
 }
 
 .video-left {
-    margin: 50px;
+    margin: 60px;
 }
 
 .video-right{
-    margin: 50px;
+    margin: 60px;
 }
 iframe{
     width: 300px;
