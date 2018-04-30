@@ -105,27 +105,14 @@ h1:not(:first-child){
     margin-top: 150px;
 }
 
-.photo_right{
+.photo{
     width:200px;
     height:130px;
-    background-size: 100%;
     box-shadow: 0 0 30px rgb(109, 104, 104);
-    background-position: center;
     margin:60px;
-    right: 0;
-    float: right;
+    
   }
 
-  .photo_left{
-    display:inline-block;
-    width:200px;
-    height:130px;
-    background-size: 100%;
-    box-shadow: 0 0 30px rgb(109, 104, 104);
-    background-position: center;
-    margin:60px;
-    position: relative;
-  }
 
 .staffpic{
     width:200px;
@@ -133,10 +120,13 @@ h1:not(:first-child){
 }
 
   #staff {
-      width: 750px;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-   margin-bottom: 50px;
   }
 
 figcaption{
@@ -208,15 +198,17 @@ div .homepagepic:nth-child(even) {
 
 
 .resource-section{
-    display: inline-block;
+    display: flex;
     width: 100%;
     margin-bottom: 50px;
-    
+    justify-content: center;
    
 }
 
 
 .resource-nav {
+    display: flex;
+    justify-content: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -226,7 +218,6 @@ div .homepagepic:nth-child(even) {
 
 
 .resource-tab {
-    display: inline-block;
     outline: none;
     text-align:center;
     width: 33%;
@@ -236,7 +227,6 @@ div .homepagepic:nth-child(even) {
 }
 
 .audio-resource-tab {
-    display: inline-block;
     outline: none;
     text-align:center;
     width: 19%;
@@ -253,6 +243,9 @@ div .homepagepic:nth-child(even) {
 .audio-resource-tab:not(:nth-child(even)){
     border-right: 2px solid rgb(139, 139, 139);
     border-left: 2px solid rgb(139, 139, 139);
+}
+.audio-resource-tab:nth-child(4){
+    border-right: 2px solid rgb(139, 139, 139);
 }
 
 .audio-resource-tab:hover {
@@ -271,7 +264,6 @@ div .homepagepic:nth-child(even) {
     background-color: rgb(209, 207, 207);
 }
 
-
 .training-panel{
     display: none;
     width: 100%;
@@ -280,6 +272,7 @@ div .homepagepic:nth-child(even) {
     top: 100%;
     z-index: -1;
     padding-bottom: 150px;
+    justify-self: center;
 }
 
 .training-panel img{
@@ -291,23 +284,21 @@ div .homepagepic:nth-child(even) {
 
 
 .resource_images {
-    display: block;
-    width: 950px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 }
 
 .video-left {
-    margin-top: 100px;
-    display: inline-block;
-    clear: both;
+    margin: 50px;
 }
 
 .video-right{
-    margin-top: 100px;
-   float: right;
-   clear: both;
+    margin: 50px;
 }
 iframe{
     width: 300px;
@@ -322,6 +313,11 @@ iframe ~ .description {
     padding-left: 20px;
     font-weight: bold;
 }
+
+video {
+    width: 300px;
+    box-shadow: 0 0 30px rgb(71, 71, 71);
+}
 .description > .duration {
     font-size:18px;
     font-family: sans-serif;
@@ -332,8 +328,7 @@ iframe ~ .description {
 
 #panel0{
     display: block;
-    width: 60%;
-    margin-left: 20%;
+    justify-self: center;
 }
 
 
@@ -400,35 +395,25 @@ iframe ~ .description {
     header{
         font-size: 60pt;
     }
-    .audio-resource-tab {
-        visibility: hidden;
-    }
-    .resource-tab {
-        visibility: hidden;
-    }
+
 
     .resource-nav {
         width: 100%;
     }
 
-    .training-panel {
-        width: 80%;
-    }
     .resource_images{
         width: 80%;
     }
-    #staff {
-        width: 100%;
-    }
+  
     .menu{
-    visibility: visible;
-    position: absolute;
-    top: 15px;
-    right: 0;
-    bottom: 15px;
-    border-left: 1px solid white;
-    font-size: 40px;
-    padding-right: 20px;
+        visibility: visible;
+        position: absolute;
+        top: 15px;
+        right: 0;
+        bottom: 15px;
+        border-left: 1px solid white;
+        font-size: 40px;
+        padding-right: 20px;
     }
 
     .menu ul {
