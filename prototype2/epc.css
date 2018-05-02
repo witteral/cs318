@@ -378,8 +378,9 @@ video {
     visibility: hidden;
 }
 
-.menu:hover ul{
+.menu:hover ul, .menu:focus ul{
     display:block;
+
 }
 
 .menu ul li:hover {
