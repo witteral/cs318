@@ -115,10 +115,12 @@ h1:not(:first-child){
 
 footer {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 15pt;
+    font-size: 12pt;
     padding: 20px;
     text-align: right;
-
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .staffpic{
     width:200px;
