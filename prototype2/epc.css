@@ -4,6 +4,7 @@
 
   body {
       margin: 0;
+      position: relative;
   }
 /* #top is for the navigation panel, z-index so that it is above everything else it scrolls over*/
   #top {
@@ -113,14 +114,17 @@ h1:not(:first-child){
     
   }
 
+.credit-flex {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     font-family: 'Fjalla One', sans-serif;
     font-size: 12pt;
     padding: 20px;
     text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    order: 2;
 }
 .staffpic{
     width:200px;
@@ -131,10 +135,11 @@ footer {
     display: flex;
     width: 60%;
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    order: 1;
   }
 
 figcaption{

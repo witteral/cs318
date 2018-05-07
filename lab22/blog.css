@@ -45,7 +45,7 @@ img{
 }
 
 #left{
-    background-color: rgb(228, 209, 209);
+    background-color: rgb(255, 245, 245);
     flex:0;
     align-self: center;
     margin:20px;
