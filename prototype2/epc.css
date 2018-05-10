@@ -34,6 +34,10 @@ nav div a {
     height: 100%;
     padding: 30px 40px 30px 40px;
 }
+a:hover {
+    /*color: rgb(185, 185, 185);*/
+    color: rgb(182, 144, 62);
+}
 
 /* sets the display of all links in the pages*/
 a {
@@ -98,9 +102,6 @@ nav{
     text-align: center;
 }
 
-nav div:hover{
-    background-color: rgb(209, 207, 207);
-}
 
 h1:not(:first-child){
     margin-top: 150px;

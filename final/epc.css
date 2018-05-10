@@ -1,0 +1,489 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+      margin: 0;
+      position: relative;
+  }
+/* #top is for the navigation panel, z-index so that it is above everything else it scrolls over*/
+  #top {
+    Position: fixed;
+    z-index: 1;
+}
+
+/* #logo is the small image of the EPC Logo on the navigation panel*/
+#logo {
+    width: 100px;
+    height: 80px;
+    Float: left;
+    position: fixed;
+    top:5px;
+    left: 50px;
+}
+
+nav div {
+    display: inline-block;
+    width: 18%;
+}
+
+/* sets the display of links in the navigation panel*/
+nav div a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 30px 40px 30px 40px;
+}
+a:hover {
+    /*color: rgb(185, 185, 185);*/
+    color: rgb(182, 144, 62);
+}
+
+/* sets the display of all links in the pages*/
+a {
+    color: black;
+    font-size: 18pt;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    display: block;
+}
+
+/* sets the display of the navigation panel itself */
+#navigation{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-left: 100px;
+    border-bottom: 1px solid rgb(139, 139, 139);
+}
+
+/* sets the display of the page title over the parallax viewport*/
+header{
+    font-size: 100pt;
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+/* sets the parallax viewport*/
+.banner{
+      width:100vw;
+      MIN-height:900px;
+      background-size:cover;
+      background-position:center;
+      background-attachment:fixed;
+      position: relative;
+      margin-bottom: 80px;
+  }
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 100px;
+}
+
+nav{
+    text-align: center;
+}
+
+
+h1:not(:first-child){
+    margin-top: 150px;
+}
+
+.photo{
+    width:200px;
+    height:130px;
+    box-shadow: 0 0 30px rgb(109, 104, 104);
+    margin:70px;
+    
+  }
+
+.credit-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 12pt;
+    padding: 20px;
+    text-align: right;
+    order: 2;
+}
+.staffpic{
+    width:200px;
+    height:130px;
+}
+
+  #staff {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    order: 1;
+  }
+
+figcaption{
+    font-size:15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.position {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+div p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18pt;
+}
+
+div p:last-child {
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+
+.help {
+    padding-top: 50px;
+    background-color: rgb(252, 249, 249);
+    width: 100%;
+}
+
+div .homepagepic:nth-child(odd) {
+    width: 450px;
+    height: auto;
+    margin: 0 40px 40px 40px;
+    float: left;
+    box-shadow: 0 0 10px rgb(109, 104, 104);
+}
+
+
+div .homepagepic:nth-child(even) {
+    float: right;
+    width: 500px;
+    height: auto;
+    margin: 0 40px 40px 100px;
+    box-shadow: 0 0 10px rgb(109, 104, 104);
+}
+
+#exc{
+    background-image: url("images/bon-iver1.jpg");
+}
+
+#aud {
+    background-image: url("images/show-light.jpg")
+}
+
+#cont{
+    background-image: url("images/gatsby2.jpg")
+}
+
+#light{
+    background-image: url("images/gatsby-lighting.jpg")
+}
+
+#vid{
+    background-image: url("images/fireball.jpg")
+}
+
+
+.resource-section{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    justify-content: center;
+   
+}
+
+
+.resource-nav {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0;
+}
+
+
+.resource-tab {
+    outline: none;
+    text-align:center;
+    width: 33%;
+    color: black;
+    font-size: 18pt;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.audio-resource-tab {
+    outline: none;
+    text-align:center;
+    width: 19%;
+    color: black;
+    font-size: 18pt;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.resource-tab:not(:nth-child(2)){
+    border-right: 2px solid rgb(139, 139, 139);
+    border-left: 2px solid rgb(139, 139, 139);
+}
+
+.audio-resource-tab:not(:nth-child(even)){
+    border-right: 2px solid rgb(139, 139, 139);
+    border-left: 2px solid rgb(139, 139, 139);
+}
+.audio-resource-tab:nth-child(4){
+    border-right: 2px solid rgb(139, 139, 139);
+}
+
+.audio-resource-tab:hover {
+    cursor: pointer;
+}
+
+.audio-resource-tab:focus{
+    background-color: rgb(209, 207, 207);
+}
+
+.resource-tab:hover {
+    cursor: pointer;
+}
+
+.resource-tab:focus{
+    background-color: rgb(209, 207, 207);
+}
+
+.training-panel{
+    display: none;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+    padding-bottom: 150px;
+    justify-self: center;
+    min-height: 1000px;
+}
+
+.training-panel img{
+    width: 80%;
+    height: auto;
+    padding-top: 100px;
+    margin-left: 10%;
+}
+
+
+.resource_images {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.video-left {
+    margin: 60px;
+}
+
+.video-right{
+    margin: 60px;
+}
+iframe{
+    width: 300px;
+    box-shadow: 0 0 30px rgb(71, 71, 71);
+    display: inline-block;
+}
+
+iframe ~ .description {
+    font-size:25px;
+    font-family: 'Fjalla One', sans-serif;;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+video {
+    width: 300px;
+    box-shadow: 0 0 30px rgb(71, 71, 71);
+}
+.description > .duration {
+    font-size:18px;
+    font-family: sans-serif;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+
+#panel0{
+    display: block;
+    justify-self: center;
+}
+
+
+.panel{
+    background-color: rgb(252, 249, 249);
+    display: none;
+    width: 100%;
+}
+
+
+#a:focus ~ #panel1 {
+    display: block;
+}
+
+#b:focus ~ #panel2 {
+    display: block;
+}
+#c:focus ~ #panel3 {
+    display: block;
+}
+#d:focus ~ #panel4 {
+    display: block;
+}
+#e:focus ~ #panel5 {
+    display: block;
+}
+
+/* */
+.menu ul{
+    background-color: rgb(252, 249, 249);
+    margin:0;
+    display: none;
+    padding-left: 0;
+    width: 125px;
+}
+
+.menu {
+    visibility: hidden;
+}
+
+.menu:hover ul, .menu:focus ul{
+    display:block;
+
+}
+
+.menu ul li:hover {
+    background-color: lightgrey;
+}
+
+.menu ul li{
+    border-bottom: 1px solid rgb(20, 20, 20);
+    list-style-position: outside;
+    overflow: hidden;
+    color: black;
+    font-size: 18pt;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+@media (max-width: 800px) {
+    nav{
+        visibility: hidden;
+    }
+
+    header{
+        font-size: 60pt;
+    }
+
+
+    .resource-nav {
+        width: 100%;
+    }
+
+    .resource_images{
+        width: 80%;
+    }
+  
+    .menu{
+        visibility: visible;
+        position: absolute;
+        top: 15px;
+        right: 0;
+        bottom: 15px;
+        border-left: 1px solid white;
+        font-size: 40px;
+        padding-right: 20px;
+    }
+
+    .menu ul {
+
+        font-size: 12pt;
+        margin: 0;
+}
+   
+    div .homepagepic:nth-child(odd) {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    div .homepagepic:nth-child(even) {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .resource-nav .menu {
+        left: 45%;
+    }
+
+    .training-panel:first-child img {
+        width: 100%;
+    }
+
+    .resource_images .video-left {
+
+        clear: both;
+        display: block;
+    }
+
+    .resource_images .video-right iframe{
+
+        clear: both;
+        display: block;
+    }
+
+    #mobile-a:focus #panel1 {
+        display: block;
+    }
+    
+    #mobile-b:focus #panel2 {
+        display: block;
+    }
+    #mobile-c:focus #panel3 {
+        display: block;
+    }
+    #mobile-d:focus #panel4 {
+        display: block;
+    }
+    #mobile-e:focus #panel5 {
+        display: block;
+    }
+}
